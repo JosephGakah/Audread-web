@@ -3,25 +3,62 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --bg-color: #000;
+  --text-color: #adadad;
+  --title-color: #f1f1ef;
+  --tag-color: #f1f1ef;
+  --loading-bg-color: #101010;
+  --primary-color: #a594fd;
+  --subtitle-color: #a594fd;
+  --separator-color: #2f2f2f;
+  --footer-bg-color: #f1f1ef;
+  --footer-title-color: #110f14;
+  --footer-text-color: #838383;
+  --footer-text-size: 1.25rem;
+  --footer-title-size: 1.25rem;
+  --ease-Out: cubic-bezier(0.430,0.195,0.020,1.000);
+  --ease-In: cubic-bezier(0.98,0.0,0.57,0);
+  --ease-OutQuint: cubic-bezier(0.230,1.000,0.320,1.000);
+  --ease-Out2: cubic-bezier(0.9,0.1,0.15,1.05);
+  --ease-Out3: cubic-bezier(0.630,0.195,0.010,1.000);
+  --ease-OutSlow: cubic-bezier(.43,.195,.02,1);
+  --ease-OutSnap: cubic-bezier(0.835,0.085,0.005,1);
+  --ease-OutUnspun: cubic-bezier(0.745,0.065,0.170,1.000);
+  --ease-OutCubic: cubic-bezier(0.215,0.610,0.355,1.000);
+  --hero-title-ease: cubic-bezier(.215,.61,.355,1);
+  --box-bg-color: #101010;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --bg-color: #000;
+    --text-color: #adadad;
+    --title-color: #f1f1ef;
+    --tag-color: #f1f1ef;
+    --loading-bg-color: #101010;
+    --primary-color: #a594fd;
+    --subtitle-color: #a594fd;
+    --separator-color: #2f2f2f;
+    --footer-bg-color: #f1f1ef;
+    --footer-title-color: #110f14;
+    --footer-text-color: #838383;
+    --footer-text-size: 1.25rem;
+    --footer-title-size: 1.25rem;
+    --ease-Out: cubic-bezier(0.430,0.195,0.020,1.000);
+    --ease-In: cubic-bezier(0.98,0.0,0.57,0);
+    --ease-OutQuint: cubic-bezier(0.230,1.000,0.320,1.000);
+    --ease-Out2: cubic-bezier(0.9,0.1,0.15,1.05);
+    --ease-Out3: cubic-bezier(0.630,0.195,0.010,1.000);
+    --ease-OutSlow: cubic-bezier(.43,.195,.02,1);
+    --ease-OutSnap: cubic-bezier(0.835,0.085,0.005,1);
+    --ease-OutUnspun: cubic-bezier(0.745,0.065,0.170,1.000);
+    --ease-OutCubic: cubic-bezier(0.215,0.610,0.355,1.000);
+    --hero-title-ease: cubic-bezier(.215,.61,.355,1);
+    --box-bg-color: #101010;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: rgb(var(--text-color));
+  background: var(--bg-color);
 }
