@@ -9,13 +9,7 @@ export default function Home() {
       <div className="loading-wrapper"></div>
       <div className="header-wrapper"></div>
       <div className="page-wrapper">
-        <section className="pt-24 pb-24">
-        <div className="container">
-            <div className="text-3xl md:text-5xl text-center text-title mt-6">
-                Featured and seen in
-            </div>
-        </div>
-    </section>
+        <Featured></Featured>
       </div>
       <div className="footer-wrapper"></div>
     </>
