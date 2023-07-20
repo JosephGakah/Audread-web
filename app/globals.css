@@ -67,3 +67,17 @@ body,html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale
 }
+
+.seen_logos__V_t6Z a {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #101010;
+  border-radius: 1rem;
+  padding: 0 1.25rem
+}
+
+.hover\:bg-loading\/5:hover {
+  background-color: hsla(0,0%,6%,.05)
+}

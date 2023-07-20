@@ -8,9 +8,10 @@ export default function Featured() {
                 Featured and seen in
             </div>
             <ul className="seen_logos__V_t6Z flex flex-col md:flex-row justify-center gap-3 mt-9">
-                <a href="https://techcrunch.com/2023/02/21/chronicle/" className="hover:bg-loading/5" target="_blank">
-                    <Image src="/images/citizen.png" alt="" className="" height={48} width={100}></Image>            
-                </a>
+                <a href="" className="hover:bg-loading/5" target="_blank"></a>
+                <a href="" className="hover:bg-loading/5 " target="_blank"></a>
+                <a href="" className="hover:bg-loading/5" target="_blank"></a>
+                <a href="" className="hover:bg-loading/5" target="_blank"></a>
             </ul>
         </div>
     </section>
